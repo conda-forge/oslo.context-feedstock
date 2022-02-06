@@ -1,5 +1,5 @@
 {% set name = "oslo.context" %}
-{% set version = "3.4.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 970f96361c5de9a5dc86d48a648289d77118180ca13ba5eeb307137736ffa953
+  sha256: 55aacaa8faefcf5d0cf665493d5b6a2c208a565dc5b75cbf09a048ca999a82cc
 
 build:
   number: 0
