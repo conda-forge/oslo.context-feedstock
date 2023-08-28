@@ -1,11 +1,11 @@
-About oslo.context
-==================
+About oslo.context-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.context-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.openstack.org/oslo.context/latest/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.context-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Oslo context library has helpers to maintain useful information about a request context.
 
