@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 398c460b9cf7cb397ede7962223e4b88078fb2fbc53665a47a34e1b28890f4ce
 
 build:
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python 3.9
     - pbr !=2.1.0,>=2.0.0
     - pip
   run:
-    - python >=3.6
+    - python >=3.9
     - pbr !=2.1.0,>=2.0.0
     - debtcollector >=1.2.0
 
